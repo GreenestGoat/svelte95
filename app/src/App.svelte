@@ -1,12 +1,15 @@
 <script>
   import Window from './lib/Window.svelte';
+  import Button from './lib/Button.svelte';
   import src from './assets/xp.webp'
 </script>
 
 <div class="m">
   <img class="i" {src} alt="">
   <div class="c">
-    <Window title="cat.png" />
+    <Window title="cat.png">
+      <Button></Button>
+    </Window>
   </div>
 </div>
 
