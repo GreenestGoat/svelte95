@@ -1,0 +1,31 @@
+.btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 7px 16px 7px 16px;
+    border-radius: 6px;
+    display: inline-flex;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: normal;
+}
+.btn:disabled {
+    opacity: .4;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: not-allowed;
+}
+.btn.btn-solid {
+    background-color: white;
+    color: black;
+}
+.btn.btn-outline {
+    background-color: white;
+    color: black;
+    outline-width: 1px;
+    outline-color: white;
+    outline-style: solid;
+    outline-offset: 2px;
+}
